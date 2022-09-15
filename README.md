@@ -3,5 +3,5 @@ This is a joint project with [Rose Mwangi](https://github.com/RWamboi) to learn 
 
 ## **In Progress...**
 ### Day One 
-* Database : [design and scaling](https://github.com/KiptoonKipkurui/100DaysOfSystemDesign/blob/main/Day%20One)
+* Database : [design and scaling](https://github.com/KiptoonKipkurui/100DaysOfSystemDesign/blob/main/DAYONE.md)
 
