@@ -16,4 +16,4 @@ A protocol that enhances secure exchange of data between the client and web serv
 
 Client ---> Web Server ---> Client
 
-<img src="../images/digital-signature-diagram.png"/>
+<img width="500" src="../images/digital-signature-diagram.png"/>
