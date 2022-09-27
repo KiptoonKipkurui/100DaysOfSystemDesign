@@ -8,8 +8,21 @@
 <br>
 <img width="420" src="https://user-images.githubusercontent.com/77434770/192515986-884801e3-128e-4c0f-be8d-d453ce5c1a32.png" alt="Database Design"/>
 
+#### Scaling the database as a separate entity from the server
+<br>
 
 #### How do we start to scale
+* Vertical Scaling - Scaling a single server server instance; be it Memory, CPU, Disc 
+Making a single server more powerful if you're scaling up, or less powerful if you're scaling it down
+  * Pros 
+   - It's cheap 
+  * Cons
+* Horizontal Scaling
+
+> Server read/ write to each db instances(replication) - If one db we have two dbs to failover
+
+### Load Balancer
+<img width="520" src="https://user-images.githubusercontent.com/77434770/192547253-66e14dc5-6650-484c-ab66-b1f6648e7209.png" alt="Database Design"/>
 
 ### Reference
 
