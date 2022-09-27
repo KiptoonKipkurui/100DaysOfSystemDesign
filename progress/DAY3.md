@@ -1,5 +1,5 @@
 # server infrastructure in the cloud
-## Software As A Service-> COSEKE,office 365
+## Software As A Service-> Bobo Culture,office 365
 > Platform As A Service-> Service Level agreement 99.95%, PAY as you go model
 #### Infrastructure As A Service-> 
 	* Rent out actual VMS, you choose specifications of the server
