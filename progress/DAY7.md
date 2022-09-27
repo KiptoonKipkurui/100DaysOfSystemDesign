@@ -24,6 +24,9 @@ Making a single server more powerful if you're scaling up, or less powerful if y
 ### Load Balancer
 <img width="520" src="https://user-images.githubusercontent.com/77434770/192547253-66e14dc5-6650-484c-ab66-b1f6648e7209.png" alt="Database Design"/>
 
+### CDN
+Is a service on cloud to offload images or common assets
+
 ### Reference
 
 [DNS](https://www.cloudflare.com/en-gb/learning/dns/what-is-dns/)
