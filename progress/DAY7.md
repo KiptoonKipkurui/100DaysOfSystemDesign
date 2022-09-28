@@ -10,6 +10,23 @@
 
 #### Scaling the database as a separate entity from the server
 <br>
+**ACID**
+A-Atomicity
+C-Correctness
+I-Isolation (database mutation)
+D-Durable (databases should be reliable and durable)
+
+NoSQL
+SQL
+Other
+
+### Manager Worker Model 
+* duplicates data down to other databases
+<img height="150" src="https://user-images.githubusercontent.com/77434770/192758988-f89a129f-5cdf-4de7-b384-cc43399d588d.png" alt="Manager Worker Model"/>
+
+Circular Manager Worker Model
+
+
 
 #### How do we start to scale
 * Vertical Scaling - Scaling a single server server instance; be it Memory, CPU, Disc 
