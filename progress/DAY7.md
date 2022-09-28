@@ -22,9 +22,12 @@ Other
 
 ### Manager Worker Model 
 * duplicates data down to other databases
-<img height="150" src="https://user-images.githubusercontent.com/77434770/192758988-f89a129f-5cdf-4de7-b384-cc43399d588d.png" alt="Manager Worker Model"/>
+<img height="150" src="https://user-images.githubusercontent.com/77434770/192760696-7d52459b-263a-4fff-b6b3-d14a146df527.png" alt="Manager Worker Model"/>
 
-Circular Manager Worker Model
+### Circular Manager Worker Model
+- Eventual Consistency
+- Low Latency
+<img height="150" src="https://user-images.githubusercontent.com/77434770/192762140-8f602832-e04e-4f67-bc63-c00cd44fb8ba.png" />
 
 
 
