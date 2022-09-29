@@ -23,7 +23,7 @@ DB Types
 - SQL
 - Other
 
-### Master-slave 
+### Master-slave Replication
 Read & Write
 
 Redundancy
