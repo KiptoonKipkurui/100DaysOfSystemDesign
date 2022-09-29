@@ -23,6 +23,11 @@ DB Types
 - SQL
 - Other
 
+### Master-slave 
+Read & Write
+
+Redundancy
+
 ### Manager Worker Model 
 * duplicates data down to other databases
 <img height="150" src="https://user-images.githubusercontent.com/77434770/192760696-7d52459b-263a-4fff-b6b3-d14a146df527.png" alt="Manager Worker Model"/>
