@@ -61,7 +61,7 @@ They balance incoming traffic to your application; and then distributes that tra
  * Allows replication
  
   
- ####Setting up Load Balancers
+ #### Setting up Load Balancers
  1. Round Robin
   * Simplest type of routing
   * Can result to uneven traffic
