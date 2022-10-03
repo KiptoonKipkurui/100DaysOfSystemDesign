@@ -54,11 +54,38 @@ Making a single server more powerful if you're scaling up, or less powerful if y
 > Server read/ write to each db instances(replication) - If one db we have two dbs to failover
 
 ### Load Balancer
+They balance incoming traffic to your application; and then distributes that traffic accross multiple servers. So that none of them are being overloaded or under utilized. 
+
+**The why**
+ * Improves reliability and scalability of your application
+ * Allows replication
+ 
+  
+ ####Setting up Load Balancers
+ 1. Round Robin
+  * Simplest type of routing
+  * Can result to uneven traffic
+ 2. Least Connections
+  * This setting routes based on number of clients connections to the server
+  * Useful for chat applications
+ 3. Least Response time
+  * Communicates with servers based on how quickly the servers respond
+ 4. IP Hash 
+  * example; shopping cart
+
+L4 vs L7
+ 
+ 
+ H/W Load Balancers eg Citrix
+ S/W Load Balancers eg Nginx, HAproxy
+
 Examples : Nginx, 
 <img width="520" src="https://user-images.githubusercontent.com/77434770/192547253-66e14dc5-6650-484c-ab66-b1f6648e7209.png" alt="Database Design"/>
 
 ### Availability zones
 ### High Availability
+
+
 ELB, HAProxy
 
 ### CDN
