@@ -38,6 +38,30 @@ Redundancy
 <img height="150" src="https://user-images.githubusercontent.com/77434770/192763294-5ec2b113-9745-41ab-b726-958574b13368.png" />
 
 ### Sharding
+The process of splitting data into small chunks or shards
+
+**Why**
+* Data may be too large to fit in a single machine. This provides horizontal database scaling.
+* Distributed processing to speed up computations
+
+**Ways to achieve sharding**
+1. Application Level sharding
+ - Database clients picks relevant shard for read/writing data
+2. Database level sharding
+ - Router/ config present in database not with client
+
+**Sharding Strategies**
+1. Hashing
+2. Ranges
+
+**Databases with sharding support**
+1. Cassandra
+2. HBase
+
+Concepts
+- Hotspotting - uneven distribution of data
+- Redistribution of data
+- Network Partition
 
 ### Data Centers
 
@@ -90,6 +114,7 @@ ELB, HAProxy
 
 ### CDN
 Is a service on cloud to offload images or common assets
+
 
 ### Reference
 
