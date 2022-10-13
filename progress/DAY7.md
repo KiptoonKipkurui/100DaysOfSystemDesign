@@ -1,4 +1,5 @@
-## Design Pattaerns
+## Design Patterns
+**System design** defines the architecture and product design by building scalable, reliable and maintainable systems
 
 ### Basics Concepts
 <br>
@@ -129,6 +130,17 @@ Examples : Nginx,
 
 
 ELB, HAProxy
+
+### <b id="caching">Caching</b>
+Caching - in memory database, limitation in size/ number elements that you can store
+
+
+LRU
+LFU Example: Redis, MemCache
+relieves the database from pressure
+makes serving of information faster
+Content Delivery Network Brings data closer to consumers to improve overall experience for [more information refer to](https://www.cloudflare.com/en-gb/learning/cdn/what-is-a-cdn/)
+
 
 ### <b id="cdn">CDN</b>
 Is a service on cloud to offload images or common assets
