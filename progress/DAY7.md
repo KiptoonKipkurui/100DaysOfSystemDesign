@@ -56,6 +56,7 @@ Redundancy
 <img height="150" src="https://user-images.githubusercontent.com/77434770/192763294-5ec2b113-9745-41ab-b726-958574b13368.png" />
 
 
+
 ### <b id="sharding">Sharding</b>
 The process of splitting data into small chunks or shards
 
@@ -81,6 +82,12 @@ Concepts
 - Hotspotting - uneven distribution of data
 - Redistribution of data
 - Network Partition
+
+**Federation**
+**Sharding**
+**Denormalization**
+**SQL Tuning**
+
 
 ### Data Centers
 
@@ -113,8 +120,11 @@ They balance incoming traffic to your application; and then distributes that tra
   * Useful for chat applications
  3. Least Response time
   * Communicates with servers based on how quickly the servers respond
- 4. IP Hash 
+ 4. Source IP Hash 
   * example; shopping cart
+ 5. Weighted least connection
+  *
+ 7. 
 
 L4 vs L7
  
