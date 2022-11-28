@@ -171,6 +171,13 @@ ELB, HAProxy
    - Example: Redis, MemCache
 
  **Implementing Cache**
+ 
+ //redis
+ //memcached
+ 
+ //Different patterns -implementing cache
+ // Database Queries
+ // Caching objects
 
  **Eviction Policies** - These are algorithms that help deciding which element to evict when the cache is full
 1. **LRU** - Least Recently Used
